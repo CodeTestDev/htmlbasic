@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Input Behaviour</title>
+    </head>
+    <body>
+        <h1>INPUT Behaviour</h1>
+        <!-- data repanstation  use table  -->
+        <form method="get">
+            <!-- get and post -->
+            <table>
+                <thead> <!-- table head -->
+                    <tr> <!-- table row -->
+                        <th>Label</th> <!-- table Heading -->
+                        <th>Input</th>
+                    </tr>
+                </thead>
+                <tbody> <!-- table body -->
+                    <tr><!-- table row -->
+                        <td> <!-- table data-->
+                            <label for="firstName" >First Name</label>
+                        </td>
+                        <td>
+                            <input 
+                                type="text" 
+                                id="firstName" 
+                                name="firstName"  
+                                required="required" 
+                                placeholder="Please enter your Name"  
+                            />
+                            <!-- 
+                                id useing for target the tag for design and some script  
+                                and some defualt behaviour 
+                             -->
+                        </td>
+                    </tr>
+                    <tr><!-- table row -->
+                        <td> <!-- table data-->
+                            <label for="lastName" >Last Name</label>
+                        </td>
+                        <td>
+                            <input type="text" id="lastName" name="lastName" required="required" />
+                            <!-- 
+                                id useing for target the tag for design and some script  
+                                and some defualt behaviour 
+                             -->
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot> <!-- table footer -->
+                    <tr>
+                        <td><input type="submit" value="Save" /></td>
+                        <td><input type="reset" value="Clear" /></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </form>
+        <p>
+            required is html built IN validation
+        </p>
+    </body>
+</html>
