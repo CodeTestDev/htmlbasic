@@ -1,14 +1,14 @@
+
+/* direct target  
+    tag 
+    id 
+    class
+
+*/
+
 #mydiv{
-    border-radius: 50%;
-    margin: auto;
-    padding:50px;
-}
-.comDiv{
-    text-align: center;
-    height: 100px; 
-    width: 100px; 
+    height: 200px;  
+    width:100px;
     background-color: red;
-}
-#mydiv1{
-    background-color: blue;
+   
 }

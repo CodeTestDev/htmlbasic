@@ -1,0 +1,69 @@
+#main{
+    height:500px;
+    width: 500px;
+    background-color: aqua;
+    position: relative;
+}
+#box{
+    height:150px;
+    width: 150px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    position:absolute;
+    top:175px;
+    left:175px;
+}
+.leef-top{
+    height:60px;
+    width: 60px;
+    background-color: red;
+    border-radius: 50% 50% 0% 0%;
+    position: absolute;
+    border: 1px solid black;
+}
+.leef-bottom{
+    height:60px;
+    width: 60px;
+    background-color: red;
+    border-radius: 0% 0% 50% 50%;
+    position: absolute;
+    border: 1px solid black;
+}
+#tl1{
+    top:125px;
+    left:220px;
+}
+#tl2{
+    top:150px;
+    left:155px;
+    transform: rotate(-40deg);
+}
+#tl3{
+    top:215px;
+    left:130px;
+    transform: rotate(-90deg);
+}
+#tl4{
+    top:150px;
+    left:285px;
+    transform: rotate(40deg);
+}
+#tl5{
+    top:215px;
+    right:130px;
+    transform: rotate(90deg);
+}
+#tl6{
+    bottom:162px;
+    right:148px;
+    transform: rotate(-60deg);
+}
+#tl7{
+    bottom:162px;
+    left:148px;
+    transform: rotate(60deg);
+}
+#tl8{
+    bottom:135px;
+    left:220px;
+}
